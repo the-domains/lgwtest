@@ -1,14 +1,26 @@
-layout_spectrum: 0.2839497
-typography_spectrum: 0.9768994
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.3960573
 color:
   saturation: 0.4408695
-  lightness: 0.809857
-  brandStrength: 0.5428251
-  rhythmicContrast: 0.7143802
+  brandStrength: 0.0483871
+  lightness: 0.8512545
   brandColors:
-    - '#F7EDF0'
-    - '#F4CBC6'
-    - '#F4AFAB'
-    - '#F4EEA9'
-    - '#F4F482'
+    - '#004267'
+    - '#BDCFD7'
+    - '#A3A388'
+    - '#010102'
+    - '#B49242'
+  rhythmicContrast: 0.6899642
+layout_spectrum: 0.9390681
 name: Lgwtest
